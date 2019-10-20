@@ -1,0 +1,125 @@
+.header{   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 180px;
+    padding: 10px;    
+    font-size: 10px;
+    font-weight: 10px;
+    text-align: right;
+    color:white;
+    text-align: left;
+    font-family:"Baskerville Old Face", "Bell MT","Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+	text-shadow:0 1px 1px black;
+}
+
+.header a{
+    font-size: 15px;
+    color:#565656;
+}
+
+.header a:hover{
+    color:  #4CAF50;
+}
+
+#page{
+	width:700px;
+	margin:0 auto;
+	position:relative;
+}
+
+
+.header menu{
+	background-color:#f8f8f8;
+	padding:0 5px;
+	position:absolute;
+	right:0;
+	top:4em;
+	
+	border:1px solid #FCFCFC;
+
+	-moz-box-shadow:0 1px 1px #333333;
+	-webkit-box-shadow:0 1px 1px #333333;
+	box-shadow:0 1px 1px #333333;
+}
+
+.header clear{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.titulo{
+    float: left;
+}
+
+.links{
+    background-color:#f8f8f8;
+	padding:10 15px;
+	position:absolute;
+	right:0;
+	top:4em;
+	
+	border:1px solid #FCFCFC;
+
+	-moz-box-shadow:0 1px 1px #333333;
+	-webkit-box-shadow:0 1px 1px #333333;
+    box-shadow:0 1px 1px #333333;
+    
+    color:#565656;
+	display:block;	
+	font-size:1.25em;
+	font-weight:bold;
+	margin:5px 2px;
+	padding:7px 10px 4px;
+	text-shadow:0 1px 1px black;
+    text-transform:uppercase;
+    border-top: 20px;
+    display:inline;    
+}
+
+.espaco{
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 30;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background: red;
+    }
+}
+
+@media screen 
+    and (min-width: 481px)
+    and (max-width: 600px) {
+        body {
+            background: pink;
+        }
+    }
+
+@media screen 
+    and (min-width: 601px)
+    and (max-width: 768px) {
+        body {
+            background: purple;
+        }
+    }
+
+@media screen 
+    and (min-width: 769px)
+    and (max-width: 992px) {
+        body {
+            background: blue;
+        }
+    }
+
+
+@media screen 
+    and (min-width: 993px) {
+        body {
+            background: black;
+        }
+    }

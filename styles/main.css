@@ -1,0 +1,314 @@
+*{	
+	margin:0;
+	padding:0;
+}
+
+header,footer,
+article,section,
+hgroup,nav,
+figure{
+	display:block;
+}
+
+body{	
+	font-size:1.000em;
+	color:#fcfcfc;
+	background-color:#355664;
+	font-family:"times new roman", Arial, Helvetica, sans-serif;
+}
+
+a, a:visited {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+
+a .footer{
+	color:black;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+a img{
+	border:none;
+}
+
+h1,h2,h3{	
+	font-family:"Baskerville Old Face", "Bell MT","Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+	text-shadow:0 1px 1px black;
+}
+
+h1{
+	font-size:3.5em;
+	text-transform:uppercase;
+	align-content: center;
+}
+
+h3{
+	font-size:2em;
+}
+
+h2{
+	font-size:2.2em;
+	text-transform:uppercase;
+}
+
+p{
+	line-height:1.5em;
+	padding-bottom:1em;
+}
+
+.line{
+	height:1px;
+	background-color:#24404c;
+	border-bottom:1px solid #416371;
+	margin:1em 0;
+	overflow:hidden;
+}
+
+article .line{	
+	background-color:#15242a;
+	border-bottom-color:#204656;
+	margin:1.3em 0;
+}
+
+footer .line{
+	margin:2em 0;
+}
+
+.clear:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	margin-right: 50px; 
+}
+
+nav ul li{
+	display:inline;
+}
+
+nav ul li a,
+nav ul li a:visited{
+	color:#565656;
+	display:block;
+	float:left;
+	font-size:1.25em;
+	font-weight:bold;
+	margin:5px 2px;
+	padding:7px 10px 4px;
+	text-shadow:0 1px 1px white;
+	text-transform:uppercase;
+}
+
+nav ul li a:hover{
+	text-decoration:none;
+	background-color:#ccc;
+}
+
+nav, article, nav ul li a,figure{
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+
+#page{
+	width:700px;
+	margin:0 auto;
+	position:relative;
+}
+
+article{
+	background-color:#213E4A;
+	margin:3em 0;
+	padding:20px;
+	width:700px;
+	text-shadow:0 2px 0 black;
+}
+
+figure{
+	float:left;
+	margin-left:15px;
+	margin-right:30px;
+	overflow:hidden;
+}
+
+
+.coluna {
+	float: left;
+	width: 33,33%;
+	padding: 15px;
+	text-align: center;	
+	cursor: pointer;
+	color: white;
+  }
+  
+  .containerAba {
+	padding: 15px;
+	color: whitesmoke;	
+  }
+  
+  .linha{
+	width: 100%;
+  }
+
+  .linha:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+    
+  .fecharAba {
+	float: right;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+  }
+
+.educ_texto{
+	width: 80%;
+}
+
+.btn__ativo{
+  background: #4CAF50;
+
+}
+
+.box_info {
+  display: none;
+}
+
+.box_info.box__info--active {
+  display: block;
+}
+
+.box_resume{
+	display: block;
+  	margin-bottom: 5px;
+	margin-top: 5px;
+	width: 300px;
+}
+
+.box_experience{
+	display: none;
+  	margin-bottom: 5px;
+	margin-top: 5px;
+	width: 300px;
+}
+
+.box_cursos{
+	display: none;
+  	margin-bottom: 5px;
+	margin-top: 5px;
+	width: 300px;
+}
+
+.field{
+	display: block;
+  	margin-bottom: 5px;
+	margin-top: 5px;
+	width: 300px;
+	  
+}
+
+.field-name{
+	display: block;
+}
+
+.field-assunto{
+  display: block;
+}
+
+.field-email{
+  display: block;
+}
+
+.field-mensagem{
+  display: block;
+  
+}
+
+.btn_enviar{
+  float: right;
+}
+
+
+.barra {  
+  width: 100%;
+  background-color: #ddd;	
+  height: 30px;  
+  text-align: center;
+  line-height: 30px; 
+  color: white;
+  display:block;
+}
+
+.barras {	
+	text-align: right;	
+	color: white;
+	margin-top: 1px;
+	margin-bottom: 15px;
+	height: 30px;
+	line-height: 30px; 
+  }
+  
+
+.vbNet {
+	width: 60%;  
+	background-color: brown;	
+}
+
+.csharp {
+  width: 70%;    
+  background-color: yellowgreen;
+}
+
+.vb6 {
+  width: 80%;    
+  background-color: blue;
+}
+
+.sql {
+  width: 90%;      
+  background-color:green;
+}
+
+.ingles{
+  width: 70%;      
+  background-color:yellow
+}
+
+.apresentacao {
+	max-width: 700px;
+}
+
+.introducao {
+	width: 300px;
+}
+
+.mensagem {	
+	margin-left: 25px
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.bars {
+	width: 50%;
+	margin: 15px
+}
+
+.bars {
+	width: 50%;
+
+}
+
+.linguagens{
+	margin-bottom: 1px;
+	padding-bottom: 1px;
+}
